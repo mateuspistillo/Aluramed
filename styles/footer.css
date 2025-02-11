@@ -18,3 +18,43 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.rodape nav .rodape-acao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--texto-claro);
+    font-size: 12px;
+}
+
+.rodape nav .rodape-acao:first-child {
+    color: var(--cor-primaria);
+}
+
+.rodape-acao span {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rodape-acao span.consultas-icone {
+    background-image: url('../assets/icons/Calendario.png');
+}
+
+.rodape-acao span.clientes-icone {
+    opacity: 30%;
+    background-image: url('../assets/icons/Clientes.png');
+}
+
+.rodape-acao span.relatorios-icone {
+    opacity: 30%;
+    background-image: url('../assets/icons/Relatorio.png');
+}
+
+.rodape-acao span.menu-icone {
+    opacity: 30%;
+    background-image: url('../assets/icons/Menu.png');
+}
