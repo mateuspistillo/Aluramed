@@ -1,0 +1,24 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    padding: 0 16px;
+}
+  
+.container-header>img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+  }
+  
+.container-header .header-info strong {
+    font-size: 22px;
+  }
+  
+.container-header .header-info p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: var(--texto-claro);
+}
