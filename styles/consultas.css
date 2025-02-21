@@ -3,13 +3,13 @@
     height: calc(100vh - 110px - 58px);
     overflow-y: scroll;
 }
-  
+
 .consulta-data {
     display: flex;
     align-items: center;
     height: 46px;
 }
-  
+
 .consultas ul{
     list-style: none;
     display: flex;
@@ -40,8 +40,8 @@
 }
   
 .card-paciente>img {
-    width: 32px;
-    height: 32px;
+    width: 20%;
+    height: 80%;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 16px;
