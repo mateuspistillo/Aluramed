@@ -1,7 +1,7 @@
 .consultas {
     padding: 0 16px;
     height: calc(100vh - 110px - 58px);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .consulta-data {
@@ -26,6 +26,8 @@
     padding: 16px 16px 0;
     border-radius: 8px;
     margin-bottom: 16px;
+    max-width: 100%;
+    max-height: 100%;
 }
   
 .card-titulo {
@@ -123,4 +125,30 @@
   
 .card-acoes button:only-of-type {
     margin: 0;
+}
+
+@media (min-width: 1200px) {
+    .consultas ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        padding: 0px; 
+    }
+
+    .consulta-card {
+        margin-bottom: 16px;
+        width: 400px;
+        height: 170px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .consultas ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 0px; 
+    }
 }
