@@ -1,6 +1,5 @@
 .consultas {
     padding: 0 16px;
-    height: calc(100vh - 110px - 58px);
     overflow-y: auto;
 }
 
@@ -150,5 +149,11 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         padding: 0px; 
+    }
+}
+
+@media (max-width: 425px) {
+    .consultas {
+        height: calc(100vh - 110px - 58px);
     }
 }

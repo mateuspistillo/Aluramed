@@ -271,6 +271,24 @@
               </div>
           </li>
       </section>
+      <div class="formulario">
+        <strong>Nova Consulta:</strong>
+        <label for="nome">Nome do paciente:</label>
+        <input type="text" id="nome" name="nome" class="campo-formulario" required>
+        <label for="tipoConsulta">Tipo de consulta:</label>
+        <select id="tipoConsulta" name="tipoConsulta" class="campo-formulario" required>
+          <option value="" disabled selected>Selecione o tipo de consulta</option>
+          <option value="consulta-online">Consulta Remota</option>
+          <option value="consulta-presencial">Consulta Presencial</option>
+        </select>
+        <label for="dataConsulta">Data da consulta:</label>
+        <input type="date" id="dataConsulta" name="dataConsulta" class="campo-formulario" required>
+        <label for="horarioConsulta">Horário da consulta:</label>
+        <input type="time" id="horarioConsulta" name="horarioConsulta" class="campo-formulario" required>
+        <label for="observacoes">Observações:</label>
+        <textarea id="observacoes" name="observacoes" class="campo-formulario"></textarea>
+        <button type="submit">Salvar Consulta</button>
+      </div>
       <footer class="rodape">
         <nav>
           <ul>

@@ -6,6 +6,7 @@
 @import url('./botoes.css');
 @import url('./footer.css');
 @import url('./botao-flutuante.css');
+@import url('./formulario.css');
 
 body {
   background: var(--fundo);

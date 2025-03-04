@@ -91,3 +91,9 @@ button.btn-flutuante-item span.local{
 button.btn-flutuante-item span.remoto{
     background-image: url('../assets/icons/Camera.png');
 }
+
+@media (min-width: 768px) {
+    .btn-flutuante {
+        display: none;
+    }
+}

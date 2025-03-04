@@ -40,7 +40,7 @@ main {
     min-height: 100vh;
 }
 
-button{
+button {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
